@@ -40,6 +40,7 @@ public class DrawGraphics implements Runnable {
             cycleStartTime = System.currentTimeMillis();
 
             mainFrame.redraw();
+            
             // fix for laggy drawing
             Toolkit.getDefaultToolkit().sync();
 

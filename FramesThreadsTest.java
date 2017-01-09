@@ -26,6 +26,7 @@ public class FramesThreadsTest {
         PositionCalculation tPos = new PositionCalculation((short)64, gameFrame);
         DrawGraphics tGraphics = new DrawGraphics(gameFrame);
         
+        
         tPos.start();
         tGraphics.start();
         

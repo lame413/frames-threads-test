@@ -35,6 +35,7 @@ public class FrameStorage {
         mainContainer.setSize(250, 250);
         mainContainer.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         mainContainer.setBackground(Color.gray);
+        mainContainer.setLocation(300, 300);
 
         JPanel bfbg = new JPanel();
         bfbg.setBackground(Color.gray);
