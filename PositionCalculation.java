@@ -58,15 +58,15 @@ public class PositionCalculation implements Runnable {
             
             //update position for box 1:
             mainFrame.moveBox1(
-                    (int) ((Math.sin(Math.toRadians(((double)curTime / (cycleTime/4))*90)))*102)+127,
-                    102);
+                    (int) ((Math.sin(Math.toRadians(((double)curTime / (cycleTime/4))*90)))*99)+98,
+                    98);
             //System.out.println("toRadinas: "+ Math.toRadians();
             //System.out.println("pos1x = " + (int)(Math.sin(Math.toRadians((((double)curTime / 2000))*90))*250) + ", pos1y = 50\n");
 
             //update position for box2
             mainFrame.moveBox2(
                     102,
-                    (int) ((Math.cos(Math.toRadians(((double)curTime / (cycleTime/4))*90)))*102)+127);
+                    (int) ((Math.cos(Math.toRadians(((double)curTime / (cycleTime/4))*90)))*91)+90);
             //System.out.println("pos2 = 50, pos2y = " + (int)(Math.cos(Math.toRadians((((double)curTime / 2000))*90))*250) + "\n curTime = " + curTime);
 
             //check if the thread is lagging behind
